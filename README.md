@@ -1,4 +1,4 @@
-A colorful, simple game for boring instances of life. Play with colored tiles and protect them from disappearing! This is a simple game made by myself and my bro (aka <a href="http://anselmbros.blogspot.in/>Anselm & Anselm</a>) and released January 1, 2015 on Google Play Store.
+A colorful, simple game for boring instances of life. Play with colored tiles and protect them from disappearing! This is a simple game made by myself and my bro (aka <a href="http://anselmbros.blogspot.in/">Visit W3Schools</a>) and released January 1, 2015 on Google Play Store.
 
 <b>HOW TO PLAY?</b></br>
 <b>Intro:</b></br>
@@ -21,7 +21,7 @@ Tapping a tile makes it <i>lighter</i>. Simple to play right?... No, it is not!
   + Sign in to your Google+ account and retain your prestigious high score and Achievements</br>
   + Check your score with your friends in Leaderboards!</br>
   
-  <a href="https://play.google.com/store/apps/details?id=com.blogspot.merbinjanselm.kolr&utm_source=global_co&utm_medium=prtnr&utm_content=Mar2515&utm_campaign=PartBadge&pcampaignid=MKT-AC-global-none-all-co-pr-py-PartBadges-Oct1515-1"><img width="404" height="132" alt="Get it on Google Play" src="https://play.google.com/intl/en_us/badges/images/apps/en-play-badge-border.png" /></a>
+  <a href="https://play.google.com/store/apps/details?id=com.blogspot.merbinjanselm.kolr&utm_source=global_co&utm_medium=prtnr&utm_content=Mar2515&utm_campaign=PartBadge&pcampaignid=MKT-AC-global-none-all-co-pr-py-PartBadges-Oct1515-1"><img width="202" height="66" alt="Get it on Google Play" src="https://play.google.com/intl/en_us/badges/images/apps/en-play-badge-border.png" /></a>
 
 Facebook:
    https://www.facebook.com/kolrgame</br>
