@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    style="@style/kolr_dialog_box"
+    android:background="@drawable/dialog_light"
+    android:padding="@dimen/activity_horizontal_margin">
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/banner_height"
+        android:src="@drawable/img_welcome"/>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+
+        <TextSwitcher
+            android:id="@+id/tv_help"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            style="@style/kolr_shadowed_text"
+            android:layout_margin="@dimen/padding_4dp"/>
+
+    </ScrollView>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/padding_4dp">
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="@dimen/btn_img_size"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/btn_help_prev"
+            android:layout_width="@dimen/btn_img_size"
+            android:layout_height="@dimen/btn_img_size"
+            android:layout_gravity="center"
+            android:background="@drawable/btn_back"/>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="@dimen/btn_img_size"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:id="@+id/tv_help_step"
+            style="@style/kolr_shadowed_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/padding_4dp"
+            android:paddingBottom="@dimen/padding_4dp"
+            android:gravity="center"
+            android:textColor="@color/orange_5"
+            android:layout_gravity="center"
+            android:text="@string/txt_step_1" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="@dimen/btn_img_size"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/btn_help_next"
+            android:layout_width="@dimen/btn_img_size"
+            android:layout_height="@dimen/btn_img_size"
+            android:layout_gravity="center"
+            android:background="@drawable/btn_next"/>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="@dimen/btn_img_size"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_help_go_back"
+        android:layout_width="@dimen/btn_img_size"
+        android:layout_height="@dimen/btn_img_size"
+        android:layout_gravity="center"
+        android:background="@drawable/btn_go_back"/>
+
+</LinearLayout>

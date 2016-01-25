@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Kolr</string>
+    <string name="button_OK">OK</string>
+    <string name="button_go_back">Play</string>
+    <string name="button_show_leaderboard">Leaderboard</string>
+    <string name="the_current_score_is">Your Current Score is</string>
+    <string name="the_high_score_is">Your High Score is</string>
+    <string name="sign_in_with">Sign in with</string>
+    <string name="signin_failure">Sign in failed!</string>
+    <string name="signin_other_error">Something went wrong while signing up! Try again later!</string>
+    <string name="title_activity_result_dialog">Result</string>
+    <string name="title_activity_ad">Ad</string>
+    <string name="title_activity_dialog_settings">Settings</string>
+    <string name="title_activity_rate_us_dialog">Rate Us</string>
+    <string name="title_activity_help_dialog">Welcome</string>
+    <string name="title_activity_about_dialog">About</string>
+    <string name="title_activity_update_dialog">News</string>
+    <string name="txt_level">Level</string>
+    <string name="txt_easy">Easy</string>
+    <string name="txt_medium">Medium</string>
+    <string name="txt_hard">Hard</string>
+    <string name="txt_easy_on">>Easy</string>
+    <string name="txt_medium_on">>Medium</string>
+    <string name="txt_hard_on">>Hard</string>
+    <string name="txt_rate">Rate</string>
+    <string name="txt_settings">Settings</string>
+    <string name="txt_color">Color</string>
+    <string name="txt_play">Play</string>
+    <string name="txt_pause">Pause</string>
+    <string name="txt_game_over">Game Over</string>
+    <string name="txt_share_score">Share my score!</string>
+    <string name="txt_score">Score : </string>
+    <string name="txt_high_score">High Score : </string>
+    <string name="txt_do_u_like">Do you like this game?</string>
+    <string name="txt_help_improve">Help us improve Kolr by giving your feedback!</string>
+    <string name="txt_help">Do not let the tile die out!\nTry by clicking Play button!</string>
+    <string name="txt_share_score_via">Share score via</string>
+
+    <string name="txt_step_1">Step 1 of 4</string>
+    <string name="txt_step_2">Step 2 of 4</string>
+    <string name="txt_step_3">Step 3 of 4</string>
+    <string name="txt_step_4">Step 4 of 4</string>
+    <string name="txt_step_5">Step 5 of 4</string>
+
+    <string name="txt_step_detail_1">Welcome!\nColors gonna trick your mind! Have a keen eye on colors! </string>
+    <string name="txt_step_detail_2">Colors appear randomly in tiles making it darker and darker!</string>
+    <string name="txt_step_detail_3">Tap on a colored tile\nIt becomes lighter and lighter! </string>
+    <string name="txt_step_detail_4">If the tiles become too lighter or too darker, it vanishes!\nTap \'Play\' to start <i>Kolring</i>!</string>
+    <string name="txt_step_detail_5">Help me 5</string>
+
+    <string name="txt_about"><b>Kolr</b>\n    <i>Kolr</i> is here to fill your lazy times with colors\n\nDeveloped by <i>Merbin J Anselm</i> and <i>Rebin J Anselm</i>\n\n\n
+You can help us in making Kolr by suggesting your valuable feedbacks! \n\n
+<i>Mail us :</i> \nanselmbros@gmail.com</string>
+
+    <!--
+    Google Play game services IDs.
+    Save this file as res/values/games-ids.xml in your project.
+    -->
+    <string name="app_id">752779164949</string>
+    <string name="achievement_iron_medal">CgkIlfqJqfQVEAIQAg</string>
+    <string name="achievement_tin_medal">CgkIlfqJqfQVEAIQAw</string>
+    <string name="achievement_copper_medal">CgkIlfqJqfQVEAIQBA</string>
+    <string name="achievement_bronze_medal">CgkIlfqJqfQVEAIQBQ</string>
+    <string name="achievement_silver_medal">CgkIlfqJqfQVEAIQBg</string>
+    <string name="achievement_gold_medal">CgkIlfqJqfQVEAIQBw</string>
+    <string name="achievement_platinum_medal">CgkIlfqJqfQVEAIQCA</string>
+    <string name="achievement_eternity">CgkIlfqJqfQVEAIQCQ</string>
+    <string name="leaderboard_kolr">CgkIlfqJqfQVEAIQAQ</string>
+
+</resources>

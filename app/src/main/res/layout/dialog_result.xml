@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/kolr_dialog_box"
+    android:background="@drawable/dialog_light"
+    android:orientation="vertical"
+    android:padding="@dimen/activity_horizontal_margin">
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/banner_height"
+        android:gravity="center"
+        android:src="@drawable/img_gameover" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <!--<LinearLayout-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:orientation="horizontal">-->
+            <!--<View-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="@dimen/btn_img_size"-->
+            <!--android:layout_weight="1"/>-->
+            <!--<ImageView-->
+            <!--android:layout_width="@dimen/result_star_size"-->
+            <!--android:layout_height="@dimen/result_star_size" />-->
+            <!--<ImageView-->
+            <!--android:layout_width="@dimen/result_star_size"-->
+            <!--android:layout_height="@dimen/result_star_size" />-->
+            <!--<ImageView-->
+            <!--android:layout_width="@dimen/result_star_size"-->
+            <!--android:layout_height="@dimen/result_star_size" />-->
+            <!--<View-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="@dimen/btn_img_size"-->
+            <!--android:layout_weight="1"/>-->
+            <!--</LinearLayout>-->
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="@dimen/padding_16dp">
+
+                <TextView
+                    android:id="@+id/tv_lbl_result_score"
+                    style="@style/kolr_shadowed_text"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:textColor="@color/orange_5"
+                    android:text="@string/txt_score"
+                    android:textSize="@dimen/text_size" />
+
+                <TextView
+                    android:id="@+id/tv_result_currentscore"
+                    style="@style/kolr_shadowed_text"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:textColor="@color/orange_5"
+                    android:text="0"
+                    android:textSize="@dimen/text_size"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="@dimen/padding_16dp">
+
+                <TextView
+                    android:id="@+id/tv_lbl_result_hiscore"
+                    style="@style/kolr_shadowed_text"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@color/orange_5"
+                    android:gravity="right"
+                    android:text="@string/txt_high_score"
+                    android:textSize="@dimen/text_size" />
+
+                <TextView
+                    android:id="@+id/tv_result_highscore"
+                    style="@style/kolr_shadowed_text"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@color/orange_5"
+                    android:gravity="left"
+                    android:text="0"
+                    android:textSize="@dimen/text_size" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/btn_result_rate"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/btn_img_size"
+                android:text="@string/txt_rate"
+                android:background="@drawable/btn_red"
+                style="@style/kolr_shadowed_text"
+                android:padding="@dimen/padding_4dp"
+                android:layout_gravity="center"/>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/btn_result_share_score"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/btn_img_size"
+                android:text="@string/txt_share_score"
+                android:background="@drawable/btn_blue"
+                style="@style/kolr_shadowed_text"
+                android:layout_margin="@dimen/padding_8dp"
+                android:padding="@dimen/padding_8dp"
+                android:layout_gravity="center"/>
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btn_result_go_back"
+        style="@style/kolr_shadowed_text"
+        android:layout_width="@dimen/btn_img_size"
+        android:layout_height="@dimen/btn_img_size"
+        android:layout_gravity="center"
+        android:background="@drawable/btn_go_back" />
+</LinearLayout>

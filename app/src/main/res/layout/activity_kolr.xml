@@ -1,0 +1,137 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".KolrActivity"
+    android:background="@drawable/background">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btn_help"
+            android:layout_width="@dimen/btn_img_size"
+            android:layout_height="@dimen/btn_img_size"
+            android:text=""
+            android:background="@drawable/btn_help"
+            style="@style/kolr_shadowed_text" />
+        <View
+            android:layout_width="0dp"
+            android:layout_height="@dimen/btn_img_size"
+            android:layout_weight="1" />
+        <Button
+            android:id="@+id/btn_info"
+            android:layout_width="@dimen/btn_img_size"
+            android:layout_height="@dimen/btn_img_size"
+            android:text=""
+            android:background="@drawable/btn_info"
+            style="@style/kolr_shadowed_text" />
+        <View
+            android:layout_width="0dp"
+            android:layout_height="@dimen/btn_img_size"
+            android:layout_weight="1" />
+        <ToggleButton
+            android:id="@+id/btn_bgmusictoggle"
+            android:layout_width="@dimen/btn_img_size"
+            android:layout_height="@dimen/btn_img_size"
+            android:textOn=" "
+            android:textOff=" "
+            android:background="@drawable/btn_bg_music_toggle"
+            style="@style/kolr_shadowed_text" />
+        <View
+            android:layout_width="0dp"
+            android:layout_height="@dimen/btn_img_size"
+            android:layout_weight="1" />
+        <ToggleButton
+            android:id="@+id/btn_miscsoundtoggle"
+            android:layout_width="@dimen/btn_img_size"
+            android:layout_height="@dimen/btn_img_size"
+            android:textOn=" "
+            android:textOff=" "
+            android:background="@drawable/btn_misc_sound_toggle"
+            style="@style/kolr_shadowed_text" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="@dimen/padding_4dp"
+            android:paddingBottom="@dimen/padding_4dp">
+
+            <TextView
+                android:id="@+id/tv_current_score"
+                android:layout_width="@dimen/tv_score_width"
+                android:layout_height="@dimen/tv_score_height"
+                android:background="@drawable/tv_score"
+                android:gravity="right|center_vertical"
+                android:text="0"
+                style="@style/kolr_shadowed_text"
+                android:paddingRight="@dimen/tv_score_padding_right"
+                android:paddingTop="@dimen/tv_score_padding_top"/>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="@dimen/tv_score_height"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:id="@+id/tv_high_score"
+                android:layout_width="@dimen/tv_score_width"
+                android:layout_height="@dimen/tv_score_height"
+                android:background="@drawable/tv_high_score"
+                android:gravity="left|center_vertical"
+                android:text="0"
+                style="@style/kolr_shadowed_text"
+                android:paddingLeft="@dimen/tv_score_padding_left"
+                android:paddingTop="@dimen/tv_score_padding_top"
+                />
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:padding="@dimen/padding_4dp">
+        <ToggleButton
+            android:id="@+id/btn_playpause"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/btn_playpause_size"
+            android:textOff="@string/txt_play"
+            android:textOn="@string/txt_pause"
+            android:background="@drawable/btn_playpause"
+            style="@style/kolr_shadowed_text"
+            android:layout_margin="@dimen/padding_4dp"
+            android:gravity="center"
+            android:paddingTop="@dimen/padding_8dp"
+            android:paddingBottom="@dimen/padding_8dp"
+            android:paddingLeft="@dimen/padding_16dp"
+            android:paddingRight="@dimen/padding_16dp"
+            android:textColor="@android:color/white"
+            />
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/pb_gameLevel"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/progress_bar_height"
+        android:max="300"
+        android:progress="100"
+        android:progressDrawable="@drawable/pb_port" />
+    </LinearLayout>
+
+

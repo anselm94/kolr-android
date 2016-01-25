@@ -1,0 +1,118 @@
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:id="@+id/cell_grid"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/dialog_light"
+    android:padding="@dimen/activity_horizontal_margin">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:id="@+id/row1">
+
+        <Button
+            android:id="@+id/cell11"
+            android:layout_width="@dimen/cell_width"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:layout_margin="@dimen/cell_vertical_margin"
+            android:text=" " />
+
+        <Button
+            android:id="@+id/cell12"
+            android:layout_width="@dimen/cell_width"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:layout_margin="@dimen/cell_vertical_margin"
+            android:text=" " />
+
+        <Button
+            android:id="@+id/cell13"
+            android:layout_width="@dimen/cell_width"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:layout_margin="@dimen/cell_vertical_margin"
+            android:text=" " />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:id="@+id/row2">
+
+        <Button
+            android:id="@+id/cell21"
+            android:layout_width="@dimen/cell_width"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:layout_margin="@dimen/cell_vertical_margin"
+            android:text=" " />
+
+        <Button
+            android:id="@+id/cell22"
+            android:layout_width="@dimen/cell_width"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:layout_margin="@dimen/cell_vertical_margin"
+            android:text=" " />
+
+        <Button
+            android:id="@+id/cell23"
+            android:layout_width="@dimen/cell_width"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:layout_margin="@dimen/cell_vertical_margin"
+            android:text=" " />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:id="@+id/row3">
+
+        <Button
+            android:id="@+id/cell31"
+            android:layout_width="@dimen/cell_width"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:layout_margin="@dimen/cell_vertical_margin"
+            android:text=" " />
+
+        <Button
+            android:id="@+id/cell32"
+            android:layout_width="@dimen/cell_width"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:layout_margin="@dimen/cell_vertical_margin"
+            android:text=" " />
+
+        <Button
+            android:id="@+id/cell33"
+            android:layout_width="@dimen/cell_width"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:layout_margin="@dimen/cell_vertical_margin"
+            android:text=" " />
+
+    </LinearLayout>
+
+</LinearLayout>

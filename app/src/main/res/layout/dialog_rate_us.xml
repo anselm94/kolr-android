@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/kolr_dialog_box"
+    android:background="@drawable/dialog_light"
+    android:orientation="vertical"
+    android:padding="@dimen/activity_horizontal_margin">
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/banner_height"
+        android:gravity="center"
+        android:src="@drawable/img_rateus" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_do_u_like"
+                style="@style/kolr_shadowed_text"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/padding_4dp"
+                android:paddingBottom="@dimen/padding_4dp"
+                android:gravity="center"
+                android:textColor="@color/orange_5"
+                android:text="@string/txt_do_u_like" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/btn_rateus_rate"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/btn_img_size"
+                android:text="@string/txt_rate"
+                android:background="@drawable/btn_red"
+                style="@style/kolr_shadowed_text"
+                android:layout_margin="@dimen/padding_4dp"
+                android:padding="@dimen/padding_4dp"
+                android:layout_gravity="center"/>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/tv_help_us"
+                style="@style/kolr_shadowed_text"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/padding_4dp"
+                android:gravity="center"
+                android:textColor="@color/orange_5"
+                android:text="@string/txt_help_improve"
+                android:textSize="@dimen/text_size" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btn_rateus_go_back"
+        android:layout_width="@dimen/btn_img_size"
+        android:layout_height="@dimen/btn_img_size"
+        android:layout_gravity="center"
+        android:background="@drawable/btn_go_back" />
+
+</LinearLayout>

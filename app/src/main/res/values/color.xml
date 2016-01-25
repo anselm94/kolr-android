@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background_black">#1A1A1A</color>
+    <color name="color_play_green">#B2CB39</color>
+
+    <!-- Shape -->
+    <color name="stroke_1">#1A1A1A</color>
+    <color name="solid_1">#AAAAAA</color>
+
+    <color name="solid_white">#FFFFFF</color>
+
+    <!-- Color Red -->
+    <color name="red_1">#f5abac</color>
+    <color name="red_2">#f86f71</color>
+    <color name="red_3">#ef2834</color>
+    <color name="red_4">#bc0000</color>
+    <color name="red_5">#8d0000</color>
+
+    <!-- Color Green -->
+    <color name="green_1">#CAFFD3</color>
+    <color name="green_2">#78e38e</color>
+    <color name="green_3">#2fc75d</color>
+    <color name="green_4">#00a330</color>
+    <color name="green_5">#007a3b</color>
+
+    <!-- Color Blue -->
+    <color name="blue_1">#bfdfff</color>
+    <color name="blue_2">#81b9fb</color>
+    <color name="blue_3">#307fe3</color>
+    <color name="blue_4">#165ec6</color>
+    <color name="blue_5">#0f429c</color>
+
+    <!-- Color yellow -->
+    <color name="yellow_1">#f9ff9a</color>
+    <color name="yellow_2">#f4fd53</color>
+    <color name="yellow_3">#f1f500</color>
+    <color name="yellow_4">#e4e600</color>
+    <color name="yellow_5">#cbcc00</color>
+
+    <!-- Color Orange -->
+    <color name="orange_1">#ffd89f</color>
+    <color name="orange_2">#f9c04d</color>
+    <color name="orange_3">#ef9f00</color>
+    <color name="orange_4">#e08400</color>
+    <color name="orange_5">#a96100</color>
+
+    <!-- Color violet -->
+    <color name="violet_1">#f7c6ef</color>
+    <color name="violet_2">#e27ad2</color>
+    <color name="violet_3">#c00bb0</color>
+    <color name="violet_4">#8c007d</color>
+    <color name="violet_5">#54004b</color>
+
+    <!-- Color Black -->
+    <color name="black_1">#d4d4d2</color>
+    <color name="black_2">#b0b0b0</color>
+    <color name="black_3">#7d7d7d</color>
+    <color name="black_4">#4a4a4a</color>
+    <color name="black_5">#242422</color>
+
+    <!-- Other Colors -->
+    <color name="deactivated">#1A1A1A</color>
+    <color name="blank">#FFFFFF</color>
+    <color name="paused">#444444</color>
+</resources>

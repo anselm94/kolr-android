@@ -1,0 +1,206 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_black"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".KolrActivity">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="@dimen/score_card_width"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_roundcorner"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/view_vertical_margin"
+            android:paddingLeft="@dimen/view_horizontal_margin"
+            android:paddingRight="@dimen/view_horizontal_margin"
+            android:paddingTop="@dimen/view_vertical_margin">
+
+            <TextView
+                android:id="@+id/tv_lbl_curent_score"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/current_score"
+                android:textSize="@dimen/txt_large" />
+
+            <TextView
+                android:id="@+id/tv_current_score"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="0"
+                android:textSize="@dimen/txt_xlarge" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="#0000" />
+
+        <LinearLayout
+            android:layout_width="@dimen/score_card_width"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_roundcorner"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/view_vertical_margin"
+            android:paddingLeft="@dimen/view_horizontal_margin"
+            android:paddingRight="@dimen/view_horizontal_margin"
+            android:paddingTop="@dimen/view_vertical_margin">
+
+            <TextView
+                android:id="@+id/tv_lbl_high_score"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/high_score"
+                android:textSize="@dimen/txt_large" />
+
+            <TextView
+                android:id="@+id/tv_high_score"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="0"
+                android:textSize="@dimen/txt_xlarge" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/grid"
+        >
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:id="@+id/row1">
+
+            <Button
+                android:id="@+id/cell11"
+                android:layout_width="@dimen/cell_width"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:layout_margin="@dimen/cell_vertical_margin"
+                android:background="@drawable/shape_cell11"
+                android:text=" " />
+
+            <Button
+                android:id="@+id/cell12"
+                android:layout_width="@dimen/cell_width"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:layout_margin="@dimen/cell_vertical_margin"
+                android:background="@drawable/shape_cell12"
+                android:text=" " />
+
+            <Button
+                android:id="@+id/cell13"
+                android:layout_width="@dimen/cell_width"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:layout_margin="@dimen/cell_vertical_margin"
+                android:background="@drawable/shape_cell13"
+                android:text=" " />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:id="@+id/row2">
+
+            <Button
+                android:id="@+id/cell21"
+                android:layout_width="@dimen/cell_width"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:layout_margin="@dimen/cell_vertical_margin"
+                android:background="@drawable/shape_cell11"
+                android:text=" " />
+
+            <Button
+                android:id="@+id/cell22"
+                android:layout_width="@dimen/cell_width"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:layout_margin="@dimen/cell_vertical_margin"
+                android:background="@drawable/shape_cell12"
+                android:text=" " />
+
+            <Button
+                android:id="@+id/cell23"
+                android:layout_width="@dimen/cell_width"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:layout_margin="@dimen/cell_vertical_margin"
+                android:background="@drawable/shape_cell13"
+                android:text=" " />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:id="@+id/row3">
+
+            <Button
+                android:id="@+id/cell31"
+                android:layout_width="@dimen/cell_width"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:layout_margin="@dimen/cell_vertical_margin"
+                android:background="@drawable/shape_cell11"
+                android:text=" " />
+
+            <Button
+                android:id="@+id/cell32"
+                android:layout_width="@dimen/cell_width"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:layout_margin="@dimen/cell_vertical_margin"
+                android:background="@drawable/shape_cell12"
+                android:text=" " />
+
+            <Button
+                android:id="@+id/cell33"
+                android:layout_width="@dimen/cell_width"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:layout_margin="@dimen/cell_vertical_margin"
+                android:background="@drawable/shape_cell13"
+                android:text=" " />
+
+        </TableRow>
+
+
+    </TableLayout>
+
+
+</LinearLayout>
+
+

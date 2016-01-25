@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    style="@style/kolr_dialog_box"
+    android:background="@drawable/dialog_light"
+    android:padding="@dimen/activity_horizontal_margin">
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/banner_height"
+        android:src="@drawable/img_welcome"/>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+
+    <TextView
+        android:id="@+id/tv_help"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_size"
+        android:text="@string/txt_help"
+        android:gravity="center"
+        android:layout_gravity="center"
+        style="@style/kolr_shadowed_text"/>
+
+</ScrollView>
+    <Button
+        android:id="@+id/btn_help_go_back"
+        android:layout_width="@dimen/btn_img_size"
+        android:layout_height="@dimen/btn_img_size"
+        android:layout_gravity="center"
+        android:background="@drawable/btn_go_back"/>
+
+</LinearLayout>

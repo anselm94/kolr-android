@@ -1,0 +1,49 @@
+<resources>
+    <!-- Activity -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- View -->
+    <dimen name="view_horizontal_margin">10dp</dimen>
+    <dimen name="view_vertical_margin">10dp</dimen>
+
+    <!-- Cell -->
+    <dimen name="cell_width">0dp</dimen>
+    <dimen name="cell_height">0dp</dimen>
+    <dimen name="cell_horizontal_margin">4dp</dimen>
+    <dimen name="cell_vertical_margin">4dp</dimen>
+
+    <!-- Shape attributes -->
+    <dimen name="shape_roundness">20dp</dimen>
+    <dimen name="shape_stoke_weight">4dp</dimen>
+    <!-- Progress Bar height -->
+    <dimen name="progress_bar_height">48dp</dimen>
+
+    <!--Image buttons -->
+    <dimen name="btn_img_size">80dp</dimen>
+
+    <dimen name="btn_playpause_width">250dp</dimen>
+    <dimen name="btn_playpause_height">90dp</dimen>
+    <dimen name="btn_playpause_land_width">130dp</dimen>
+    <dimen name="btn_playpause_land_height">100dp</dimen>
+
+    <dimen name="tv_score_width">260dp</dimen>
+    <dimen name="tv_score_height">100dp</dimen>
+    <dimen name="tv_score_padding_right">25dp</dimen>
+    <dimen name="tv_score_padding_left">25dp</dimen>
+    <dimen name="tv_score_padding_top">25dp</dimen>
+
+    <dimen name="result_star_size">80dp</dimen>
+
+    <dimen name="progressbar_padding">10dp</dimen>
+
+    <dimen name="text_size">24sp</dimen>
+
+    <dimen name="banner_height">100dp</dimen>
+
+    <dimen name="pause_level_panel_height">160dp</dimen>
+
+
+    <dimen name="settings_color_panel_height">250dp</dimen>
+
+</resources>
