@@ -1,6 +1,8 @@
 #Kolr - A Color Tapping Game for Android
 A colorful, simple game for boring instances of life. Play with colored tiles and protect them from disappearing!
 
+This game does not use any game kit or library. Completely implemented using custom themed standard Android widgets. This was my first ever project in Android. Fork it. Share it!
+
   <a href="https://play.google.com/store/apps/details?id=com.blogspot.merbinjanselm.kolr&utm_source=global_co&utm_medium=prtnr&utm_content=Mar2515&utm_campaign=PartBadge&pcampaignid=MKT-AC-global-none-all-co-pr-py-PartBadges-Oct1515-1"><img width="202" height="66" alt="Get it on Google Play" src="https://play.google.com/intl/en_us/badges/images/apps/en-play-badge-border.png" /></a>
   
 ##HOW TO PLAY?
